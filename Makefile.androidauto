@@ -1,0 +1,7 @@
+# Copyright (C) 2024  Zoltan Puskas
+# License: GPLv3
+
+APP = AndroidAuto
+MODULE_NAME = Google Android Auto
+
+include common.mk
