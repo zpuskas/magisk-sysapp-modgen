@@ -2,7 +2,7 @@
 # License: GPLv3
 
 # Overrideable configuration
-NIKG_RELEASE ?= 28-Jul-2024
+NIKG_RELEASE ?= 16-Jul-2025
 AUTHOR ?= Anonymous Coward
 
 # Internal definitions
@@ -58,7 +58,7 @@ $(BUILD_DIR):
 
 ## Download NikGapps binary package
 $(NIKG_BIN):
-	wget "https://sourceforge.net/projects/nikgapps/files/Releases/Android-14/$(NIKG_RELEASE)/Addons/NikGapps-Addon-14-$(APP)-$(RELEASE_DATE)-signed.zip" -O $@
+	wget "https://sourceforge.net/projects/nikgapps/files/Releases/Android-15/$(NIKG_RELEASE)/Addons/NikGapps-Addon-15-$(APP)-$(RELEASE_DATE)-signed.zip" -O $@
 
 # Module skeleton
 $(MODULE_DIR):

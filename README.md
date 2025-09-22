@@ -3,7 +3,7 @@
 ## What is this?
 
 Build files to generate system application modules to be used with Magisk under
-Android 14.
+Android 15.
 
 Currently it only supports a handful GApps derived from NikGapps.
 
@@ -26,9 +26,9 @@ Build the relevant app module by running:
 
 `make -f Makefile.{chosen_app}`
 
-Once build finishes, there will be a ????? module file generated. Copy that file
-to the phone and then in Magisk under the modules tab use "Install from
-storage".
+Once build finishes, there will be a `{chosen_app}_system_installer.zip` module
+file generated. Copy that file to the phone and then in Magisk under the modules
+tab use "Install from storage".
 
 Reboot your phone.
 
